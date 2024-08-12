@@ -2,3 +2,22 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --text-color: #DB00FF;
+  --accent-color: #ff0070;
+  --color-hover: rgba(255, 0, 112, 0.4);
+  --text-box: #ff0070;
+  --menu-text: #ff0070;
+  --text-box-color-dark: #000035;
+  --background-color: #000028;
+  --about-text: #F1B2CE;
+  --title-text: var(--background-color);
+  --background-color-dark: var(--background-color);
+  --background-image: url(../images/cover-image-dark.png);
+  --bg-dark: var(--background-image);
+  --color-text: var(--text-color);
+  --text-box-dark: var(--text-box);
+  --menu-color-dark: var(--menu-text);
+  --main-text: var(--about-text);
+  --hover-dark: var(--color-hover);
+}
