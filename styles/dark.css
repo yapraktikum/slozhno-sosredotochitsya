@@ -14,98 +14,20 @@
   --color-hover: rgba(255, 0, 112, 0.4);
   --text-box: #ff0070;
   --menu-text: #ff0070;
+  --title-shadow: #ff0070;
   --text-box-color-dark: #000035;
-  --background-color: #000028;
+  --background: #000028;
   --about-text: #F1B2CE;
-  --title-text: var(--background-color);
-  --background-color-dark: var(--background-color);
+  --rec-display: block; 
+  --title-text: var(--background);
+  --background-color: var(--background);
   --background-image: url(../images/cover-image-dark.png);
   --bg: var(--background-image);
   --color-text: var(--text-color);
-  --text-box-dark: var(--text-box);
-  --menu-color-dark: var(--menu-text);
+  --text-box-color: var(--text-box);
+  --rec-display-corner: var(--rec-display); 
+  --title-shadow-color: var(--title-shadow);
+  --menu-color-text: var(--menu-text);
   --main-text: var(--about-text);
-  --hover-dark: var(--color-hover);
-  margin: 0;
-}
-
-.page .cover__heading,
-.page .footer__heading {
-  color: var(--color-text);
-}
-
-.page .header__theme-menu .header__theme-menu-list .header__theme-menu-button {
-  color: var(--menu-color-dark);
-}
-
-.page .cover__text {
-  background-color: var(--text-box-dark);
-  color: var(--text-box-color-dark);
-  display: block;
-}
-
-.page .border__decorate::after, 
-.page .border__decorate::before {
-  border-color: var(--menu-color-dark);
-}
-
-.page.theme_dark .header .cover__corner-text {
-  display: block;
-}
-
-.page .header__theme-menu-button:hover {
-  outline: 1px solid var(--hover-dark);
-}
-
-.page .header__theme-menu-button:focus {
-  outline: none;
-}
-
-.page .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--menu-color-dark);
-}
-
-.page.theme_dark .header__theme-menu-button_type_dark, 
-.theme_auto .header__theme-menu-button_type_auto {
-  outline: 1px solid var(--accent-color);
-  padding: 1.5px 13px;
-}
-
-.page .main,
-.page .footer {
-  background-color: var(--background-color-dark);
-}
-
-.page .about__heading {
-  color: var(--menu-color-dark);
-  min-inline-size: 315px;
-}
-
-.page .about__title {
-  background-color: var(--text-box-dark);
-  color: var(--title-text);
-}
-
-.page .about__link {
-  color: var(--main-text);
-  text-shadow: 2px 2px var(--text-box-dark);
-}
-
-.page .about__link:hover {
-  border-bottom: 1px solid var(--main-text);
-}
-
-.page .about__link:focus {
-  outline: none;
-}
-
-.page .about__link:focus-visible {
-  outline: 1px solid var(--main-text);
-  outline-offset: 1px;
-}
-
-.page .about__text, 
-.page .details__text,
-.page .more__text {
-  color: var(--main-text);
+  --hover: var(--color-hover);
 }
