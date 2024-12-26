@@ -10,6 +10,7 @@
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css"/>
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
@@ -17,9 +18,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <span class="border__decorate top">
         <span class="cover__corner-text">rec</span>
-      </span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -32,7 +31,6 @@
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-              
             >
               Авто
             </button>
@@ -46,21 +44,18 @@
           </li>
         </ul>
       </nav>
-      <article class="about__column-text cover">
-        <h1 class="cover__heading">no focus</h1>
+        <h1 class="heading">no focus</h1>
         <p class="cover__text">
           Что делать, когда не можешь делать ничего<br />
           Или почему нам так сложно сконцентрироваться, особенно когда очень
           надо
         </p>
-        <span class="border__decorate bottom"></span>
-      </article>
     </header>
     <main class="main">
       <section class="sections-style about__concentrate">
         <h2 class="about__heading">Почему сосредоточиться так сложно</h2>
         <ul class="about__card-list">
-          <li class="about__card-list-item">
+          <li class="about__card-list-item text__block">
             <article class="about__column-text">
               <h3 class="about__title">Многозадачность</h3>
               <p class="about__text">
@@ -76,7 +71,7 @@
               </p>
             </article>
           </li>
-          <li class="about__card-list-item">
+          <li class="about__card-list-item text__block">
             <article class="about__column-text">
               <h3 class="about__title">Дофамин</h3>
               <p class="about__text">
@@ -96,7 +91,7 @@
       </section>
       <section class="sections-style concentrate__details">
         <h2 class="about__heading">Что снижает концентрацию внимания?</h2>
-        <ul class="about__card-list">
+        <ul class="about__card-list details">
           <li class="concentrate__card-list-item">
             <article class="about__column-text">
               <h3 class="about__title">Многозадачность</h3>
@@ -146,13 +141,13 @@
           секунд)
         </h2>
         <div class="about__column-text">
-          <h3 class="about__title bigger">
+          <h3 class="about__title more__concentrate-heading">
             5 простых (на самом деле не очень) советов
           </h3>
         <ul class="about__card-list">
-          <li class="more__card-list-item">
+          <li class="more__card-list-item text__block">
             <article class="about__column-text">
-              <h4 class="about__title no-bold">Представьте небо и облака</h4>
+              <h4 class="about__title about__title-heading">Представьте небо и облака</h4>
               <p class="about__text">
                 Или листья в ручье. Тут дело в лёгкой медитации, которая
                 помогает успокоиться. Ведь часто именно тревожные мысли о
@@ -165,9 +160,9 @@
               </p>
             </article>
           </li>
-          <li class="more__card-list-item">
+          <li class="more__card-list-item text__block">
             <article class="about__column-text">
-              <h4 class="about__title no-bold">Включите музыку</h4>
+              <h4 class="about__title about__title-heading">Включите музыку</h4>
               <p class="about__text">
                 Но не любую, и не любимую. Любимая может быть связана с сильными
                 положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -176,9 +171,9 @@
               </p>
             </article>
           </li>
-          <li class="more__card-list-item">
+          <li class="more__card-list-item text__block">
             <article class="about__column-text">
-              <h4 class="about__title no-bold">Прогуляйтесь</h4>
+              <h4 class="about__title about__title-heading">Прогуляйтесь</h4>
               <p class="about__text">
                 Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
                 <a class="about__link" href="#">показал</a>, что созерцание
@@ -190,9 +185,9 @@
               </p>
             </article>
           </li>
-          <li class="more__card-list-item">
+          <li class="more__card-list-item text__block">
             <article class="about__column-text">
-              <h4 class="about__title no-bold">Хорошо ешьте</h4>
+              <h4 class="about__title about__title-heading">Хорошо ешьте</h4>
               <p class="about__text">
                 Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
                 которые препятствуют резким скачкам сахара в крови. Например, с
@@ -202,9 +197,9 @@
               </p>
             </article>
           </li>
-          <li class="more__card-list-item">
+          <li class="more__card-list-item text__block">
             <article class="about__column-text">
-              <h4 class="about__title no-bold">Читайте</h4>
+              <h4 class="about__title about__title-heading">Читайте</h4>
               <p class="about__text">
                 Настоящие бумажные книги. Это правда помогает с концентрацией:
                 чтобы прочитать пост в соцсети, достаточно нескольких минут или
@@ -219,7 +214,7 @@
       <section class="sections-style masonry__image">
         <h2 class="about__title">А можно в картинках?</h2>
         <div class="image__masonry">
-          <div class="masonry__size image__sunset">
+          <div class="masonry__size image__sunset masonry__size-nature">
             <img
               loading="lazy"
               class="masonry__details sunset"
@@ -227,7 +222,7 @@
               alt="Закат"
             />
           </div>
-          <div class="masonry__size image__ice-cream">
+          <div class="masonry__size image__ice-cream images__size">
             <img
               loading="lazy"
               class="masonry__details ice-cream"
@@ -235,7 +230,7 @@
               alt="Мороженное"
             />
           </div>
-          <div class="masonry__size image__tape">
+          <div class="masonry__size image__tape images__size">
             <img
               loading="lazy"
               class="masonry__details tape"
@@ -243,7 +238,7 @@
               alt="Кассета"
             />
           </div>
-          <div class="masonry__size image__books">
+          <div class="masonry__size image__books images__size">
             <img
               loading="lazy"
               class="masonry__details books"
@@ -251,7 +246,7 @@
               alt="Книги"
             />
           </div>
-          <div class="masonry__size image__street">
+          <div class="masonry__size image__street masonry__size-nature">
             <img
               loading="lazy"
               class="masonry__details street"
@@ -262,10 +257,8 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <span class="border__decorate top"></span>
-      <h2 class="footer__heading">focus</h2>
-      <span class="border__decorate bottom"></span>
+    <footer class="footer decorated-zone">
+      <h2 class="footer__heading heading">focus</h2>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>
